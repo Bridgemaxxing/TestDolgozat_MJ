@@ -31,7 +31,7 @@ namespace ConsoleApp1
             double height = double.Parse(Console.ReadLine());
             Console.WriteLine("Kérem a magasságot : ");
             double width = double.Parse(Console.ReadLine());
-            
+            Console.WriteLine("Eredmény : "+plafon.CalculateArea(height, width));
             
 
            
